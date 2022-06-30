@@ -1,0 +1,13 @@
+@import "./global.css";
+@import "./utilidades/cores/cores.css";
+@import "./utilidades/fonts/fonts.css";
+@import "./utilidades/botaoLink/botaoLink.css";
+@import "./utilidades/container/container.css";
+@import "./header/header.css";
+@import "./home/main/main.css";
+@import "./home/bicicletas/bicicletas-lista.css";
+@import "./home/tecnologia/tecnologia.css";
+@import "./home/parceiros/parceiros.css";
+@import "./home/depoimento.css";
+@import "./seguros/seguros.css";
+@import "./footer/footer.css";
