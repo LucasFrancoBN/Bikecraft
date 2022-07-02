@@ -1,10 +1,14 @@
+/*CONFIGURACOES PADROES DA PAGINA*/
 @import "./global/global.css";
-@import "./utilidades/espacamento/espPdd.css";
 @import "./utilidades/cores/cores.css";
 @import "./utilidades/fonts/fonts.css";
 @import "./utilidades/botaoLink/botaoLink.css";
 @import "./utilidades/container/container.css";
 @import "./global/header.css";
+@import "./utilidades/internas/internas.css";
+@import "./utilidades/formulario/formulario.css";
+
+/*HOME*/
 @import "./home/main.css";
 @import "./home/bicicletas-lista.css";
 @import "./home/tecnologia.css";
@@ -12,5 +16,24 @@
 @import "./home/depoimento.css";
 @import "./seguros/seguros.css";
 @import "./global/footer.css";
-@import "./utilidades/internas/internas.css";
+
+/*INTERNAS - TERMOS*/
 @import "./termos/termos.css";
+
+/*INTERNAS - BICICLETAS*/
+@import "./bicicletas/bicicletas.css";
+
+/*INTERNAS - Seguro*/
+@import "./seguro/vantagens.css";
+@import "./seguro/perguntas.css";
+
+/*INTERNAS - Bicicleta*/
+@import "./bicicleta/bicicleta.css";
+@import "./bicicleta/seguro.css";
+
+/*INTERNAS - Contato*/
+@import "./contato/contato.css";
+@import "./contato/lojas.css";
+
+/*INTERNAS - Contato*/
+@import "./orcamento/orcamento.css";

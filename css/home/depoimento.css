@@ -17,6 +17,8 @@
 .depoimento-conteudo {
   align-self: end;
   padding: 2.5rem 2.5rem 5rem 5rem;
+  background: url("../../img/dec/bottom-right-p.svg") no-repeat bottom 40px
+    right 40px;
 }
 
 .depoimento-conteudo p {
@@ -92,8 +94,26 @@
     padding: 2.5rem 1.25rem;
     justify-self: center;
   }
-  .depoimento p::after,
+
+  .depoimento p {
+    display: flex;
+  }
+
+  .depoimento p::before,
+  .depoimento p::after {
+    position: static;
+    display: inline-block;
+    font-size: 4rem;
+    line-height: 1rem;
+  }
+
   .depoimento p::before {
-    content: "";
+    content: "“";
+    padding-top: 20px;
+  }
+
+  .depoimento p::after {
+    content: "”";
+    align-self: flex-end;
   }
 }

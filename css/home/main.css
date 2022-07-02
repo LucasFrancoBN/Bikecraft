@@ -1,5 +1,6 @@
 .main-bg {
-  background-color: var(--cor-base12);
+  background: var(--cor-base12) url("../../img/dec/bottom-left.svg") no-repeat
+    bottom 140px left 40px;
   box-shadow: inset 0 -7.5rem var(--cor-base0);
 }
 
@@ -22,7 +23,7 @@
   margin-bottom: 1.25rem;
 }
 
-.main figure img {
+.main picture img {
   width: 100%;
 }
 

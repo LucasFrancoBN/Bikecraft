@@ -4,6 +4,10 @@
   padding-bottom: 3.75rem;
 }
 
+.titulo {
+  background: url("../../../img/dec/top-right.svg") no-repeat top right 20px;
+}
+
 .titulo p {
   margin-bottom: 0.25rem;
 }
@@ -17,5 +21,10 @@
     font-size: 1rem;
     text-transform: lowercase;
     font-weight: 400;
+  }
+}
+@media (max-width: 600px) {
+  .titulo {
+    background: none;
   }
 }
