@@ -9,8 +9,8 @@
 
 .contato-dados,
 .contato-formulario {
-  padding: 3.75rem;
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  padding: var(--esp-xl);
+  box-shadow: var(--sombra);
 }
 
 .contato-dados {
@@ -26,24 +26,24 @@
 }
 
 .contato-dados h2 {
-  margin-bottom: 3.75rem;
+  margin-bottom: var(--esp-xl);
 }
 
 .contato-endereco {
-  margin-bottom: 2rem;
-  padding-left: 1.75rem;
+  margin-bottom: var(--esp-sl);
+  padding-left: var(--esp-lm);
   background: url("../../img/icones/local.svg") no-repeat 0px 2px;
 }
 
 .contato-dados p {
-  margin-bottom: 0.5rem;
+  margin-bottom: var(--esp-xxs);
 }
 
 .contato-meios a {
   display: block;
   max-width: max-content;
-  margin-bottom: 0.5rem;
-  padding-left: 1.75rem;
+  margin-bottom: var(--esp-xxs);
+  padding-left: var(--esp-lm);
 }
 
 .contato-meios a:hover {
@@ -55,18 +55,18 @@
 }
 
 .contato-meios a:nth-child(2) {
-  margin-bottom: 2rem;
+  margin-bottom: var(--esp-sl);
 }
 
 .contato-meios a:last-child {
   background: url("../../img/icones/telefone.svg") no-repeat 0px 2px;
-  margin-bottom: 3.75rem;
+  margin-bottom: var(--esp-xl);
 }
 
 .contato-redes {
   display: flex;
   gap: 2rem;
-  padding-left: 1.75rem;
+  padding-left: var(--esp-lm);
 }
 
 @media (max-width: 800px) {
@@ -75,7 +75,7 @@
   }
   .contato-dados,
   .contato-formulario {
-    padding: 1.25rem;
+    padding: var(--esp-m);
   }
   .contato-dados {
     border-radius: 5px 5px 0 0;
@@ -88,11 +88,11 @@
   }
   .contato-dados h2,
   .contato-meios a:last-child {
-    margin-bottom: 2rem;
+    margin-bottom: var(--esp-sl);
   }
 
   .contato-redes {
-    margin-bottom: 0.75rem;
+    margin-bottom: var(--esp-xs);
   }
 }
 

@@ -5,17 +5,17 @@
 .footer {
   display: grid;
   grid-template-columns: 3fr 5fr 4fr;
-  gap: 2.5rem;
-  padding-top: 3.75rem;
-  padding-bottom: 1.25rem;
+  gap: var(--esp-l);
+  padding-top: var(--esp-xl);
+  padding-bottom: var(--esp-m);
 }
 
 .footer h3 {
-  margin-bottom: 2rem;
+  margin-bottom: var(--esp-sl);
 }
 
 .footer-contato ul {
-  margin-bottom: 2rem;
+  margin-bottom: var(--esp-sl);
 }
 .footer li:nth-child(even)::after {
   content: "";
@@ -23,15 +23,15 @@
   max-width: 360px;
   height: 2px;
   background-color: var(--cor-base11);
-  margin-top: 1rem;
+  margin-top: var(--esp-s);
 }
 .footer li {
-  margin-bottom: 1rem;
+  margin-bottom: var(--esp-s);
 }
 
 .footer-redes {
   display: flex;
-  gap: 2rem;
+  gap: var(--esp-sl);
 }
 
 .footer a:hover {
@@ -40,7 +40,7 @@
 
 .footer-copy {
   grid-column: 1/-1;
-  margin-top: 2.5rem;
+  margin-top: var(--esp-l);
 }
 
 @media (max-width: 800px) {
@@ -54,7 +54,7 @@
 @media (max-width: 800px) {
   .footer {
     grid-template-columns: 1fr;
-    gap: 3.75rem;
+    gap: var(--esp-xl);
   }
   .footer-copy {
     margin-top: 0px;

@@ -1,6 +1,6 @@
 .termos {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding-top: var(--esp-xxl);
+  padding-bottom: var(--esp-xxl);
 }
 
 .termos h2 {
@@ -8,7 +8,7 @@
 }
 
 .termos p + h2 {
-  margin-top: 2.5rem;
+  margin-top: var(--esp-l);
 }
 
 .termos p {

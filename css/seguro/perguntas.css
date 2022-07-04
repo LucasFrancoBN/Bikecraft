@@ -1,14 +1,14 @@
 .perguntas {
-  padding-top: 7.5rem;
-  padding-bottom: 7.5rem;
+  padding-top: var(--esp-xxxl-b);
+  padding-bottom: var(--esp-xxxl-b);
 }
 
 .perguntas h2 {
-  margin-bottom: 3.75rem;
+  margin-bottom: var(--esp-xl);
 }
 
 .perguntas dl > div {
-  padding: 1.25rem;
+  padding: var(--esp-m);
   border-radius: 5px;
 }
 
@@ -20,7 +20,7 @@
   display: grid;
   grid-template-columns: auto 1fr auto;
   align-items: center;
-  gap: 0.5rem;
+  gap: var(--esp-xxs);
   cursor: pointer;
 }
 
@@ -50,10 +50,10 @@
 
 @media (max-width: 800px) {
   .perguntas {
-    padding-top: 3.75rem;
-    padding-bottom: 3.75rem;
+    padding-top: var(--esp-xl);
+    padding-bottom: var(--esp-xl);
   }
   .perguntas h2 {
-    margin-bottom: 2.5rem;
+    margin-bottom: var(--esp-l);
   }
 }

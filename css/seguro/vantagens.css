@@ -1,46 +1,46 @@
 .vantagens-bg {
   background: var(--cor-base12);
-  --padding: 7.5rem;
 }
 
 .vantagens {
-  padding-top: var(--padding);
-  padding-bottom: var(--padding);
+  padding-top: var(--esp-xxxl-b);
+  padding-bottom: var(--esp-xxxl-b);
 }
 
 .vantagens h2 {
-  margin-bottom: 3.75rem;
+  margin-bottom: var(--esp-xl);
 }
 
 .vantagens ul {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, max-content));
-  gap: 2.5rem 5rem;
+  gap: var(--esp-l) var(--esp-xxl);
 }
 
 .vantagens h3,
 .vantagens img {
-  margin-bottom: 0.5rem;
+  margin-bottom: var(--esp-xxs);
 }
 
 @media (max-width: 800px) {
   .vantagens {
-    --padding: 3.75rem;
+    padding-top: var(--esp-xl);
+    padding-bottom: var(--esp-xl);
   }
 
   .vantagens h2 {
-    margin-bottom: 2.5rem;
+    margin-bottom: var(--esp-l);
   }
 
   .vantagens ul {
-    gap: 1.25rem;
+    gap: var(--esp-m);
   }
 }
 
 @media (max-width: 600px) {
   .vantagens li {
     background-color: var(--cor-base11);
-    padding: 1rem;
+    padding: var(--esp-s);
     border-radius: 5px;
   }
 }

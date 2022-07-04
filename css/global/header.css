@@ -5,21 +5,22 @@
 .header {
   display: flex;
   flex-wrap: wrap;
-  gap: 1.25rem;
+  gap: var(--esp-m);
   justify-content: space-between;
   align-items: center;
-  padding: 1.25rem;
+  padding: var(--esp-m);
 }
 
 .header-menu {
   display: flex;
   flex-wrap: wrap;
-  gap: 2.5rem;
+  gap: var(--esp-l);
 }
 
 .header-menu a {
   display: inline-block;
-  padding: 1rem 0;
+  padding-top: var(--esp-s);
+  padding-bottom: var(--esp-s);
   position: relative;
 }
 
@@ -39,12 +40,12 @@
 
 @media (max-width: 800px) {
   .header-menu {
-    gap: 1.25rem;
+    gap: var(--esp-m);
   }
 
   .header-menu a {
     background-color: var(--cor-base11);
-    padding: 0.75rem 1rem;
+    padding: var(--esp-xs) var(--esp-s);
     border-radius: 5px;
   }
 
@@ -59,14 +60,14 @@
 
 @media (max-width: 600px) {
   .header-menu {
-    gap: 0.75rem;
+    gap: var(--esp-xs);
   }
 
   .header li {
     flex: 1;
   }
   .header-menu a {
-    padding: 0.5rem 0.75rem;
+    padding: var(--esp-xxs) var(--esp-xs);
     font-size: 0.875rem;
     width: 100%;
     text-align: center;

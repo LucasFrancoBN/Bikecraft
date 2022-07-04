@@ -1,7 +1,7 @@
 .depoimento {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 2rem;
+  gap: var(--esp-sl);
   background-color: var(--cor-enf1);
   overflow: hidden;
 }
@@ -16,7 +16,7 @@
 
 .depoimento-conteudo {
   align-self: end;
-  padding: 2.5rem 2.5rem 5rem 5rem;
+  padding: var(--esp-l) var(--esp-l) var(--esp-xxl) var(--esp-xxl);
   background: url("../../img/dec/bottom-right-p.svg") no-repeat bottom 40px
     right 40px;
 }
@@ -26,7 +26,7 @@
   font-family: "Lora", serif;
   font-style: italic;
   font-weight: 600;
-  margin-bottom: 2rem;
+  margin-bottom: var(--esp-sl);
   position: relative;
 }
 
@@ -91,7 +91,7 @@
     max-height: 200px;
   }
   .depoimento-conteudo {
-    padding: 2.5rem 1.25rem;
+    padding: var(--esp-l) var(--esp-m);
     justify-self: center;
   }
 
@@ -109,11 +109,10 @@
 
   .depoimento p::before {
     content: "“";
-    padding-top: 20px;
+    padding-top: var(--esp-m);
   }
 
   .depoimento p::after {
     content: "”";
-    align-self: flex-end;
   }
 }

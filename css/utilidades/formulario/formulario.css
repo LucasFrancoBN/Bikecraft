@@ -1,13 +1,13 @@
 .form {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 1.25rem;
+  gap: var(--esp-m);
 }
 
 .form label {
   display: block;
   font: 400 1rem/1.5 "Poppins", sans-serfi;
-  margin-bottom: 0.25rem;
+  margin-bottom: var(--esp-xxxs);
 }
 
 .form input[type="text"],
@@ -16,7 +16,7 @@
   font: 400 1rem/1.5 "Roboto", sans-serif;
   background: var(--cor-base1);
   border: 1px solid var(--cor-base2);
-  padding: 0.75rem;
+  padding: var(--esp-xs);
   border-radius: 5px;
   width: 100%;
 }

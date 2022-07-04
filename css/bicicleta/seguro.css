@@ -6,7 +6,7 @@
 .seguro {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 2.5rem;
+  gap: var(--esp-l);
 }
 
 .seguro-imagem img {
@@ -16,16 +16,16 @@
 }
 
 .seguro-conteudo {
-  padding-top: 11.25rem;
-  padding-bottom: 11.25rem;
+  padding-top: var(--esp-xxxxl-b);
+  padding-bottom: var(--esp-xxxxl-b);
 }
 
 .seguro h2 {
-  margin-bottom: 2rem;
+  margin-bottom: var(--esp-sl);
 }
 
 .seguro p {
-  margin-bottom: 2rem;
+  margin-bottom: var(--esp-sl);
 }
 
 @media (max-width: 800px) {
@@ -39,15 +39,15 @@
 
   .seguro-conteudo {
     grid-row: 1;
-    padding-top: 2.5rem;
-    padding-bottom: 2.5rem;
+    padding-top: var(--esp-l);
+    padding-bottom: var(--esp-l);
   }
 
   .seguro h2 {
-    margin-bottom: 1.25rem;
+    margin-bottom: var(--esp-m);
   }
 
   .seguro p {
-    margin-bottom: 1.25rem;
+    margin-bottom: var(--esp-m);
   }
 }

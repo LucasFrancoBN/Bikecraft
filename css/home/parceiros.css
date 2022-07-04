@@ -1,13 +1,13 @@
 .parceiros {
-  padding: 3.75rem 0 7.5rem;
+  padding: var(--esp-xl) 0 var(--esp-xxxl-b);
 }
 
 .parceiros h2 {
-  margin-bottom: 3.75rem;
+  margin-bottom: var(--esp-xl);
 }
 
 .parceiros ul {
-  padding: 0 1.25rem;
+  padding: 0 var(--esp-m);
   max-width: 1400px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -16,7 +16,7 @@
 
 .parceiros li {
   display: flex;
-  padding: 2rem;
+  padding: var(--esp-sl);
   border-left: 2px solid var(--cor-base2);
 }
 
@@ -36,10 +36,10 @@
 
 @media (max-width: 800px) {
   .parceiros {
-    padding: 3.75rem 0;
+    padding: var(--esp-xl) 0;
   }
   .parceiros h2 {
-    margin-bottom: 1.25rem;
+    margin-bottom: var(--esp-m);
   }
 
   .parceiros ul {
@@ -47,7 +47,7 @@
   }
 
   .parceiros li {
-    padding: 1.25rem;
+    padding: var(--esp-m);
   }
 
   .parceiros li:nth-child(odd) {

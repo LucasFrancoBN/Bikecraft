@@ -1,0 +1,18 @@
+:root {
+  --esp-xxxxl: 12.5rem;
+  --esp-xxxxl-b: 11.25rem;
+  --esp-xxxl: 10rem;
+  --esp-xxxl-b: 7.5rem;
+  --esp-xxl: 5rem;
+  --esp-xl: 3.75rem;
+  --esp-l: 2.5rem;
+  --esp-sl: 2rem;
+  --esp-lm: 1.75rem;
+  --esp-m: 1.25rem;
+  --esp-s: 1rem;
+  --esp-xs: 0.75rem;
+  --esp-xxs: 0.5rem;
+  --esp-xxxs: 0.25rem;
+
+  /*var(--esp-sl)*/
+}

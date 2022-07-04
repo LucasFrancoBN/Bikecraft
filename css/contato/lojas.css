@@ -1,14 +1,14 @@
 .lojas {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 0 2.5rem;
-  padding-top: 7.5rem;
-  padding-bottom: 7.5rem;
+  gap: 0 var(--esp-l);
+  padding-top: var(--esp-xxxl-b);
+  padding-bottom: var(--esp-xxxl-b);
 }
 
 .lojas h2 {
   grid-column: 1/-1;
-  margin-bottom: 3.75rem;
+  margin-bottom: var(--esp-xl);
 }
 
 .lojas img {
@@ -24,8 +24,8 @@
 .lojas-conteudo {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 2rem 1rem;
-  padding: 2rem;
+  gap: var(--esp-sl) var(--esp-s);
+  padding: var(--esp-sl);
 }
 
 .lojas-conteudo h3,
@@ -35,25 +35,25 @@
 
 .lojas-dados {
   display: grid;
-  gap: 0.5rem;
+  gap: var(--esp-xxs);
   border-left: 2px solid var(--cor-base2);
-  padding-left: 0.75rem;
+  padding-left: var(--esp-xs);
 }
 
 .lojas-tempo {
   display: flex;
   align-items: center;
-  gap: 0.5rem;
+  gap: var(--esp-xxs);
 }
 
 @media (max-width: 800px) {
   .lojas {
-    gap: 1.25rem;
-    padding-top: 3.75rem;
-    padding-bottom: 3.75rem;
+    gap: var(--esp-m);
+    padding-top: var(--esp-xl);
+    padding-bottom: var(--esp-xl);
   }
   .lojas h2 {
-    margin-bottom: 2rem;
+    margin-bottom: var(--esp-sl);
   }
   .lojas-conteudo {
     grid-template-columns: 1fr;
