@@ -8,6 +8,7 @@
 @import "./global/header.css";
 @import "./utilidades/titulo/titulo.css";
 @import "./utilidades/formulario/formulario.css";
+@import "./utilidades/animacao.css";
 
 /*HOME*/
 @import "./home/main.css";

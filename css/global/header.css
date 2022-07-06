@@ -34,7 +34,8 @@
   transition: 0.3s ease-out;
 }
 
-.header-menu a:hover::after {
+.header-menu a:hover::after,
+.header-menu a.ativado::after {
   width: 100%;
 }
 
