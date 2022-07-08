@@ -19,7 +19,7 @@
         <br><br>
        
  <h2> 📱 Responsivo </h2>
-    <img src="./img/readme/print-home-responsivo.png" alt="" style="width:750px">
+    <img src="./img/readme/print-home-responsivo.jpg" alt="" style="width:750px">
         <br><br>
         
    <h2 id="GIFs"> 🎥 GIFs </h2>
