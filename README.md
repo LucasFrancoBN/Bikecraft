@@ -33,7 +33,7 @@
     <h2> 📝 Sobre o Projeto </h2> 
     <p> Bikecraft, uma marca que vende bicicletas elétricas no melhor preço do mercado. Site completo com diversas páginas, feito utilizando HTML, CSS, JavaScript e UI/UX Design. </p>
  
- <h3 align="center">Link do Projeto <a href="https://lucasfrancobn.github.io/Lampada/">CLIQUE AQUI</a></h3>
+ <h3 align="center">Link do Projeto <a href="https://lucasfrancobn.github.io/Bikecraft/">CLIQUE AQUI</a></h3>
 
 </div>
 <br>
